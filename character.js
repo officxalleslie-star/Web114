@@ -1,21 +1,21 @@
 "use strict";
 
-// Step 4: Welcome message (includes your name and the haunted forest setting)
+
 alert(`Welcome to the Adventure Character Creator! My name is Leslie, and your journey takes place deep within a haunted forest.`);
 
-// Step 5: Character name
+
 const charName = prompt(`What is your character's name?`, `Wanderer`);
 
-// Step 6: Pet / companion
+
 const pet = prompt(`What type of pet or companion does ${charName} have?`, `Ghost cat`);
 
-// Step 7: Superpower
+
 const superpower = prompt(`What superpower does ${charName} have?`, `Shadow Manipulation`);
 
-// Step 8: Years of training & conversion
+
 const trainingYearsText = prompt(`How many years has ${charName} been training?`, `5`);
 
-// Convert string to a number
+
 const trainingYears = Number(trainingYearsText);
 
 // Log both values and their types to the console
